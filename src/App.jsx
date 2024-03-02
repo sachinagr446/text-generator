@@ -39,7 +39,7 @@ const Passwordgenerator=useCallback(()=>{
 },[length,isUp,isLow,isSym,isNum] )
 useEffect(() => {
   Passwordgenerator()
-console.log(Password)
+
   
 }, [length,isUp,isLow,isSym,isNum])
 const handleCopy=()=>{
